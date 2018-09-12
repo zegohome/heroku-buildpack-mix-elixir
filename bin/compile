@@ -22,13 +22,13 @@ source ${build_pack_path}/lib/erlang_funcs.sh
 source ${build_pack_path}/lib/elixir_funcs.sh
 source ${build_pack_path}/lib/app_funcs.sh
 
-mkdir $(platform_tools_path)
 
 load_config
 export_env_vars
 export_mix_env
 
 build_path=${build_path}${mix_relative_path}
+mkdir -p $(platform_tools_path)
 
 check_stack
 clean_cache
