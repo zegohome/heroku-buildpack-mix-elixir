@@ -65,6 +65,9 @@ post_compile="pwd"
 
 # Set the path the app is run from
 runtime_path=/app
+
+# Set the relative build path
+mix_relative_path=./packages/something
 ```
 
 

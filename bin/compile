@@ -28,6 +28,8 @@ load_config
 export_env_vars
 export_mix_env
 
+build_path=${build_path}${mix_relative_path}
+
 check_stack
 clean_cache
 
